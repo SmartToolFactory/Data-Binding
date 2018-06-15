@@ -20,12 +20,12 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@={temp.location}" />
+            android:text="@{temp.location}" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@={temp.celsius}" />
+            android:text="@{temp.celsius}" />
 
         <EditText
             android:layout_width="match_parent"

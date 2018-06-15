@@ -1,7 +1,5 @@
 package com.example.tutorial3observables;
 
-import android.content.Context;
-
 public class MainActivityPresenter implements MainActivityContract.Presenter {
     private MainActivityContract.View view;
 

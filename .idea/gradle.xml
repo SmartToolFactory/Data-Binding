@@ -8,9 +8,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/DataBindingExample" />
             <option value="$PROJECT_DIR$/Tutorial1Basics" />
             <option value="$PROJECT_DIR$/Tutorial2IncludeAndHandlers" />
-            <option value="$PROJECT_DIR$/Tutorial3Obeservables2" />
+            <option value="$PROJECT_DIR$/Tutorial3ObeservableFields" />
             <option value="$PROJECT_DIR$/Tutorial3Observables" />
             <option value="$PROJECT_DIR$/Tutorial4RecyclerView" />
             <option value="$PROJECT_DIR$/Tutorial4RecyclerViewAndroidHive" />

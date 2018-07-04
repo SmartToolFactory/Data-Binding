@@ -4,14 +4,28 @@
     <data>
 
         <variable
-            name="temp"
-            type="com.example.tutorial4recyclerview.TemperatureData" />
+            name="handlers"
+            type="com.example.tutorial4recyclerview.SecondActivity"/>
 
     </data>
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/my_recycler_view"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scrollbars="vertical" />
+        android:padding="8dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Data" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/my_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical" />
+    </LinearLayout>
+
 </layout>

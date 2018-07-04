@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
         handlers = new MyClickHandlers(this);
         binding.content.setHandlers(handlers);
 
-
     }
 
     public class MyClickHandlers {

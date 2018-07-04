@@ -14,8 +14,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         ActivityMainBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
         User user = new User();
+
         user.name.set("John");
         user.email.set("abc@xy.com");
+
+        // Observable ArrayList
+        user.hobbies.add("Tango");
+        user.hobbies.add("Boxing");
+        user.hobbies.add("Drinking");
+
         binding.setUser(user);
     }
 }

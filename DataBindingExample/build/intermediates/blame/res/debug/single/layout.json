@@ -8,11 +8,11 @@
         "source": "/Users/smarttoolfactory/ANDROID/ANDROID WORKSPACE/Android Studio/Study Case Codes/Architecture/Data Binding/DataBindingExample/src/main/res/layout/item_input_dialog.xml"
     },
     {
-        "merged": "/Users/smarttoolfactory/ANDROID/ANDROID WORKSPACE/Android Studio/Study Case Codes/Architecture/Data Binding/DataBindingExample/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_photo.xml",
-        "source": "/Users/smarttoolfactory/ANDROID/ANDROID WORKSPACE/Android Studio/Study Case Codes/Architecture/Data Binding/DataBindingExample/src/main/res/layout/item_photo.xml"
-    },
-    {
         "merged": "/Users/smarttoolfactory/ANDROID/ANDROID WORKSPACE/Android Studio/Study Case Codes/Architecture/Data Binding/DataBindingExample/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
         "source": "/Users/smarttoolfactory/ANDROID/ANDROID WORKSPACE/Android Studio/Study Case Codes/Architecture/Data Binding/DataBindingExample/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/smarttoolfactory/ANDROID/ANDROID WORKSPACE/Android Studio/Study Case Codes/Architecture/Data Binding/DataBindingExample/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_photo.xml",
+        "source": "/Users/smarttoolfactory/ANDROID/ANDROID WORKSPACE/Android Studio/Study Case Codes/Architecture/Data Binding/DataBindingExample/src/main/res/layout/item_photo.xml"
     }
 ]

@@ -10,19 +10,27 @@ import android.view.ViewGroup;
 
 import com.smarttoolfactory.tutorial4recyclerviewwithclicklistener.BR;
 
+/*
+  1- Inflate layout and create binding object with DataBindingUtil.inflate inside onCreateViewHolder() and create ViewHolder
+  2- Get binding object inside constructor of MyViewHolder constructor
+  3- Bind items to rows inside onCreateViewHolder() method
+ */
+
 public abstract class BaseAdapter extends RecyclerView.Adapter<BaseAdapter.MyViewHolder> {
 
-    private OnRecyclerViewItemClickListener listener;
+    OnRecyclerViewItemClickListener listener;
 
     public class MyViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         // each data item is just a string in this case
         private final ViewDataBinding binding;
 
+        // TODO #2
         public MyViewHolder(ViewDataBinding binding) {
             super(binding.getRoot());
             this.binding = binding;
         }
 
+        // TODO #3
         void bind(Object obj) {
             binding.setVariable(BR.obj, obj);
             binding.executePendingBindings();
@@ -39,7 +47,7 @@ public abstract class BaseAdapter extends RecyclerView.Adapter<BaseAdapter.MyVie
         }
     }
 
-
+    // TODO #1
     @NonNull
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -50,11 +58,13 @@ public abstract class BaseAdapter extends RecyclerView.Adapter<BaseAdapter.MyVie
         return new MyViewHolder(binding);
     }
 
+    // TODO #3
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
         holder.bind(getDataAtPosition(position));
     }
 
+    // TODO #3
     /**
      * Get data in position for RecyclerView row. This method is invoked inside onBindViewHolder() method of RecyclerView
      *
@@ -63,6 +73,7 @@ public abstract class BaseAdapter extends RecyclerView.Adapter<BaseAdapter.MyVie
      */
     public abstract Object getDataAtPosition(int position);
 
+    // TODO #1
     /**
      * Get id of layout from R. This method is invoked from onCreateViewHolder method of Adapter
      *

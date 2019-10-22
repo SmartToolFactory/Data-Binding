@@ -14,7 +14,7 @@
         android:layout_height="match_parent">
 
         <TextView
-            android:id="@+id/user_info"
+            android:id="@+id/userInfo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text='@{viewModel.userObservableField.name+ ", email " + viewModel.userObservableField.email}'
@@ -36,7 +36,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.501"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/user_info" />
+            app:layout_constraintTop_toBottomOf="@+id/userInfo" />
 
         <EditText
             android:id="@+id/et_email"

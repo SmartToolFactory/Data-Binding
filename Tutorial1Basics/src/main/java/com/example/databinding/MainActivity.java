@@ -21,8 +21,8 @@ public class MainActivity extends AppCompatActivity {
         //  dataBinding.description.setText("New Description");
 
         // Title and Description are variables inside data tag in xml
-        //   dataBinding.setTitle("Var Title");
-        dataBinding.setDescription("Var Desciption");
+        //   dataBinding.setTitle("Initial Title");
+        dataBinding.setDescription("Initial Desciption");
 
         dataBinding.button.setOnClickListener(new View.OnClickListener() {
             @Override

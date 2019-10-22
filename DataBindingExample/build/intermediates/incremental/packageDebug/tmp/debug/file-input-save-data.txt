@@ -1,7 +1,0 @@
-#Internal package file, do not edit.
-#Fri Jul 12 13:52:29 EET 2019
-0.baseType=DIRECTORY
-0.base=/Users/smarttoolfactory/ANDROID/ANDROID WORKSPACE/Android Studio/Study Case Codes/Architecture/Data Binding/DataBindingExample/build/intermediates/transforms/dexMerger/debug/0
-0.path=classes.dex
-0.set=DEX
-count=1

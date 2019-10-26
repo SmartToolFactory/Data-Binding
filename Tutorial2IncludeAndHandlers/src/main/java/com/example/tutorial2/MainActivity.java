@@ -30,8 +30,8 @@ public class MainActivity extends AppCompatActivity {
 
         // Create a handler for touch events and bind it
         handlers = new MyClickHandlers(this);
-        binding.content.setHandlers(handlers);
-
+        binding.layout.setHandlers(handlers);
+        binding.setHandlers(handlers);
     }
 
     public class MyClickHandlers {

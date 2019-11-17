@@ -16,7 +16,6 @@ import java.util.List;
 
 public class SecondActivity extends Activity {
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,8 +23,6 @@ public class SecondActivity extends Activity {
         ActivitySecondBinding activitySecondBinding = DataBindingUtil.setContentView(this, R.layout.activity_second);
 
         RecyclerView recyclerView = activitySecondBinding.myRecyclerView;
-
-
 
         // use this setting to improve performance if you know that changes
         // in content do not change the layout size of the RecyclerView
@@ -49,10 +46,5 @@ public class SecondActivity extends Activity {
                 items.get(0).setCelsius("27");
             }
         });
-
-
-
     }
-
-
 }

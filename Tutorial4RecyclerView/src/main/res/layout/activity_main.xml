@@ -2,11 +2,9 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
 
     <data>
-
         <variable
             name="temp"
             type="com.example.tutorial4recyclerview.TemperatureData" />
-
         <variable
             name="presenter"
             type="com.example.tutorial4recyclerview.MainActivityPresenter" />

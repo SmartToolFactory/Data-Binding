@@ -9,9 +9,10 @@ import android.widget.Toast;
 import com.example.tutorial3obserablefields2objects.databinding.ActivityMainBinding;
 
 /*
- User data is changed when edit text is changed and changeUserName() is called but UI is not updated
- UI is changed when  userObservableField.set() is called with new user object.
- Updating old object and calling userObservableField.set() does not update UI
+ - User data is changed when edit text is changed
+ - When changeUserName() is called, UI is not updated. Because updating old object is not sufficient for UI update.
+ notifyChange() should be called for UI update in this case.
+ - UI is changed when  userObservableField.set() is called with new user object.
 */
 public class MainActivity extends AppCompatActivity {
 

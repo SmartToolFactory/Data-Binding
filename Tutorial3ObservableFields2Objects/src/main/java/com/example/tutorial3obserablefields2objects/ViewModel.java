@@ -15,7 +15,8 @@ public class ViewModel {
     public void changeUserName() {
         mUser.setName("New Name");
         userObservableField.get().setName("Changed Name");
-        userObservableField.get().setName("changed@abc.com");
+        userObservableField.get().setEmail("changed@abc.com");
+        // userObservableField.notifyChange(); // this line is needed for updating observable field
     }
 
     public void changeUser() {

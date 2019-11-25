@@ -5,8 +5,8 @@ import android.databinding.ViewDataBinding
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.ViewGroup
-
 import com.example.tutorial4recyclerview.BR
+
 import com.example.tutorial4recyclerview.R
 import com.example.tutorial4recyclerview.TemperatureData
 
@@ -16,13 +16,13 @@ import com.example.tutorial4recyclerview.TemperatureData
   3- Bind items to rows inside onCreateViewHolder() method
  */
 
-private class MyAdapter// Provide a suitable constructor (depends on the kind of data set)
+class MyAdapter// Provide a suitable constructor (depends on the kind of data set)
 (private val data: List<TemperatureData>) : RecyclerView.Adapter<MyAdapter.MyViewHolder>() {
 
     // Provide a reference to the views for each data item
     // Complex data items may need more than one view per item, and
     // you provide access to all the views for a data item in a view holder
-    internal inner class MyViewHolder(// each data item is just a string in this case
+    inner class MyViewHolder(// each data item is just a string in this case
             private val binding: ViewDataBinding) : RecyclerView.ViewHolder(binding.root) {
 
         fun bind(obj: Any) {
